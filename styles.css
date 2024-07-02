@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    width: 550px;
+    margin: 20px;
+}
+
+.post-header{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+.post-header-left{
+    display: flex;
+    align-items: center;
+}
+
+.profile-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name p{
+    margin: 0%;
+}
+
+.fa-html5{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.post-img{
+    display: block;
+    width: 100%;   
+    margin-bottom: 10px;
+}
