@@ -10,6 +10,7 @@ body{
     background-color: white;
     width: 550px;
     margin: 20px;
+    height: 650px;
 }
 
 .post-header{
@@ -38,8 +39,28 @@ body{
     font-size: 30px;
 }
 
+.fa-ellipsis-vertical{
+    font-size: 25px;
+}
+
 .post-img{
     display: block;
     width: 100%;   
     margin-bottom: 10px;
+}
+
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    font-size: 1.5em;
+}
+
+.post-icons.bookmark{
+    margin-left: auto;
+}
+
+.post-body{
+    padding: 5px;
+    margin-left: 10px;
 }
